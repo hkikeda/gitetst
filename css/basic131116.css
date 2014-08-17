@@ -1,0 +1,292 @@
+@charset "UTF-8";
+/* boostrap customization */
+
+/* =============================================*/
+/* navbar of logos. Adjust position of logo     */
+/* ekrain color: #FFCC33 #FFDD00 #FCC347 #F3A90A #ffff99*/
+.navbar-brand-us {
+  float: left;
+  padding: 4px 15px; /*<- padding adjusting*/
+  font-size: 18px;
+  line-height: 20px;
+  color: #FCC347;
+  border-bottom: none;
+}
+
+.navbar-inverse .navbar-brand  {
+  color: #FFFFFF;
+}
+
+@media (max-width: 650px) {
+  .visible-uxs {
+    display: block !important;
+  }
+  .hidden-uxs {
+    display: none !important;
+  }
+}
+
+/* navi-inverse color*/
+.navbar-inverse-us {
+  background-color: RGB(23,85,167); /*#1755a7;*/
+  border-bottom-color: transparent;
+}
+ 
+/* no-underline in heaver-nav */
+.navbar-header-us a {
+  text-decoration: none;
+}
+/* link color in header-nav */
+.navbar-inverse-us .navbar-nav > li > a{
+  color: #FFFFFF;
+  background-color: transparent;
+  text-decoration: none;
+}
+/* hover link color in header-nav */
+.navbar-inverse-us .navbar-nav > li > a:hover{
+  color: #FFFFFF;
+  background-color: transparent;
+  text-decoration: none;
+}
+.navbar-us {
+  min-height: 30px;
+}
+
+.navbar-toggle-us{
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #000000;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #FFDD00;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.navbar .userid{
+  font-size: 8px;
+  padding: 3px 0px;
+  margin: 0px;
+}
+
+.navbar .group-name{
+  font-size: 16px;
+  margin: 0px;
+}
+
+
+/* =============================================*/
+/* login  */
+
+.navbar-inverse-login {
+  background-color: #ffffff;
+  border-bottom-color: #1755a7;
+  border-width: 0 0 20px;
+}
+
+.top-page-text{
+    color: black;
+    opacity:1.0;
+    //background-color: #444444;
+}
+
+.top-panel{
+    opacity:0.9;
+}
+/* =============================================*/
+/* Normal dropdown-menu*/
+.dropdown-menu-us {
+  background-color: white;     
+}
+
+.dropdown-menu-us > li > a {
+  color: #000000;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.dropdown-menu-us > li > a:hover,
+.dropdown-menu-us > li > a:focus {
+  color: #FFFFFF;
+  background-color: #FFDD00;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    font-size: 12px;
+  }
+
+}
+
+/* =============================================*/
+/* tabs                   */
+
+
+
+/* =============================================*/
+/* schedule for club practive                   */
+.list-group-club {
+    margin-bottom: 0px;
+}
+
+.well-practice {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+  background-color: white; 
+}
+
+.well-biko {
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.list-group-toban {
+    margin-bottom: 0px;
+}
+
+.well-club {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.well-club p{
+  margin: 0px;
+  padding: 3px;
+}
+
+/* =============================================*/
+/* file & material                              */
+.label-pdf {
+  background-color: #aa0000;
+}
+
+.label-xls, .label-xlsx {
+  background-color: #2e724d;
+}
+
+.label-doc, label-docx {
+  background-color: #0d60bc;
+}
+.material > a{
+  text-decoration: none;
+}
+
+/* =============================================*/
+/* headline                                     */
+.list-group-headline{
+    margin: 10px 20px 10px 10px;
+    line-height: 1.5   
+
+}
+.help-block-headline{
+    color: #aeaeae;
+}
+
+/* =============================================*/
+/* list                                         */
+a.list-group-item:hover,
+a.list-group-item:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+
+.list-group-item-us {
+  border: 0px solid #dddddd;
+}
+
+
+
+/* =============================================*/
+/* Attend list                                  */
+
+.list-group-item-attend {
+
+  padding: 0px 15px;
+}
+
+
+/* =============================================*/
+/* select                                       */
+.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]) {
+    width: 200px;
+}
+
+
+/* =============================================*/
+/* bs-callou                                    */
+
+/* Side notes for calling out things
+-------------------------------------------------- */
+ 
+/* Base styles (regardless of theme) */
+/* Base styles (regardless of theme) */
+.bs-callout {
+    margin: 20px 0;
+    padding: 15px 30px 15px 15px;
+    border-left: 5px solid #eee;
+}
+ 
+.bs-callout h4 {
+    margin-top: 0;
+}
+ 
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+ 
+.bs-callout code,
+.bs-callout .highlight {
+    background-color: #fff;
+}
+ 
+/* Themes for different contexts */
+.bs-callout-danger {
+    background-color: #fcf2f2;
+    border-color: #dFb5b4;
+}
+ 
+.bs-callout-warning {
+    background-color: #fefbed;
+    border-color: #f1e7bc;
+}
+ 
+.bs-callout-info {
+    background-color: #f0f7fd;
+    border-color: #d0e3f0;
+}
+ 
+.bs-callout-danger h4,
+.bs-callout-danger a.alert-link {
+    color: #B94A48;
+}
+ 
+.bs-callout-warning h4,
+.bs-callout-warning a.alert-link {
+    color: #C09853;
+}
+ 
+.bs-callout-info h4,
+.bs-callout-info a.alert-link {
+    color: #3A87AD;
+}
+ 
+.bs-callout a.alert-link {
+    font-weight: bold;
+}
