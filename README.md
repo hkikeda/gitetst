@@ -3,6 +3,7 @@ gitetst
 
 git for test
 
-test branch
-test for pull
+/test branch
+/test for pull
+/test for pull2
 
